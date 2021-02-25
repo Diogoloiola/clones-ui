@@ -8,3 +8,7 @@ Repositório dedicados a clones Ui
 # Tela de Login Discord
 
 <img src="discord-login.png">
+
+## Tela principal Discord
+
+<img src="discord-tela-principal.png">
