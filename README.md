@@ -3,12 +3,16 @@
 Repositório dedicados a clones Ui
 
 # Nintendo
-<img src="nintendo.png">
+<img src="imgs/nintendo.png">
 
 # Tela de Login Discord
 
-<img src="discord-login.png">
+<img src="imgs/discord-login.png">
 
 ## Tela principal Discord
 
-<img src="discord-tela-principal.png">
+<img src="imgs/discord-tela-principal.png">
+
+## Clone interface usuário GitHub
+
+<img src="imgs/cloneGithub.png">
