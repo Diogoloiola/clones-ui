@@ -1,0 +1,109 @@
+/* ================ setting theme */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('img/bookwood_linuxmint.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.mt-1 {
+    margin-top: 20px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.aling-items-end {
+    align-items: flex-end;
+}
+
+.aling-items-center {
+    align-items: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.bg-dark {
+    background-color: #2A2A2A;
+}
+
+
+/* ================================================================== */
+
+.config-icon {
+    display: block;
+    font-size: 30px;
+}
+
+.text-icon {
+    font-size: 15px;
+}
+
+.computer-color {
+    color: #616A79;
+}
+
+.folder-color {
+    color: #7BB451;
+}
+
+.chrome-color {
+    color: #EA9B4E;
+}
+
+.disck-color {
+    color: #EDF2EB;
+}
+
+.icon-footer {
+    font-size: 27px;
+}
+
+.height-terminal {
+    height: 40px;
+}
+
+.width-icons-terminal {
+    width: 15%;
+    margin-top: 7px;
+}
+
+.config-icon-right {
+    width: 8%;
+    margin-top: 5px;
+}
+
+.icons-main {
+    width: 120px;
+    text-align: center;
+    position: absolute;
+}
