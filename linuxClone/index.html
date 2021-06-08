@@ -13,7 +13,7 @@
 <body>
 
 
-    <main>
+    <main class="p-relative">
         <section>
             <div class="container">
                 <div class="icons-main">
@@ -38,6 +38,38 @@
                 </div>
             </div>
         </section>
+        <section id="myterminal" class="terminal hide">
+            <section class="header-terminal">
+                <section>
+                    <ul class="d-flex">
+                        <li style="margin-left: auto;">user@user:~</li>
+                        <li style="margin-left: auto;">
+                            <div class="d-flex">
+                                <span class="btn-terminal btn-yellow"></span>
+                                <span class="btn-terminal btn-blue"></span>
+                                <span onclick="closeTerminal()" class="btn-terminal btn-red"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <ul class="nav-terminal">
+                        <li>File</li>
+                        <li>Edit</li>
+                        <li>View</li>
+                        <li>Search</li>
+                        <li>Terminal</li>
+                        <li>Help</li>
+                    </ul>
+                </section>
+            </section>
+            <div>
+                <div class="d-flex">
+                    <label class="user-computer" for="">user@user:~/</label>
+                    <input class="input-terminal" type="text" selected>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="d-flex aling-itens-center w-100 h-100 aling-items-end">
@@ -51,7 +83,7 @@
                     <span class="icon-footer chrome-color">
                     <i class="fab fa-chrome"></i>
                 </span>
-                    <img src="img/terminal-1.svg" alt="" width="30">
+                    <img onclick="showTerminal()" src="img/terminal-1.svg" alt="" width="30">
                 </div>
                 <div class="config-icon-right ml-auto">
                     <div class="d-flex justify-content-around">
@@ -64,7 +96,17 @@
 
         </div>
     </footer>
+    <script>
+        function showTerminal() {
+            var element = document.getElementById("myterminal");
+            element.classList.remove("hide");
+        }
 
+        function closeTerminal() {
+            var element = document.getElementById("myterminal");
+            element.classList.add("hide");
+        }
+    </script>
 </body>
 
 
