@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.rigth-side {
+    width: 35%;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 50px;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #fff;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.alert {
+    padding: 15px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.text-alert {
+    text-align: center;
+    color: #fff;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.box-form {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 360px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(196, 182, 182);
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.link-form {
+    text-decoration: none;
+    font-size: 8px;
+    color: hsl(154, 59%, 51%);
+}
+
+.bold-2 {
+    font-weight: 900;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-green {
+    background-color: hsl(154, 59%, 51%);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-side,
+    .rigth-side {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+    .left-side {
+        margin-top: 90px;
+    }
+    .box-form {
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list {
+    display: flex;
+}
+
+.list li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.d-flex {
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.w-40 {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.mt-5 {
+    margin-top: 60px;
+}
+
+.form-control {
+    padding: 10px;
+    display: block;
+    outline: none;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 33%;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.size-3 {
+    font-size: 30px;
+}
+
+.size-1 {
+    font-size: 14px;
+}
+
+.config-section-2 {
+    background-image: url('../images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #F8F8FE;
+    margin-top: 128px;
+}
+
+.config-section-3 {
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 30px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.box {
+    width: 300px;
+    height: 180px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.12);
+}
+
+.form-espec {
+    width: 50%;
+}
+
+.footer {
+    height: 230px;
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.list-footer a {
+    display: block;
+    padding: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.list-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-icons li span {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #img-1 {
+        width: 100%;
+    }
+    .left-side {
+        width: 100%;
+        order: 2;
+    }
+    .right-side {
+        order: 1;
+    }
+    .logo-site {
+        width: 60px;
+    }
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .config-section-2 {
+        margin-top: 50px;
+    }
+    .box {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .config-section-3 {
+        height: 360px;
+        box-sizing: border-box;
+    }
+    .w-40 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .form-espec {
+        width: 100%;
+    }
+    .form-espec button {
+        width: 100%;
+    }
+}
