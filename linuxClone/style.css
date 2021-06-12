@@ -68,6 +68,10 @@ ul {
     text-align: center;
 }
 
+.text-white {
+    color: #fff;
+}
+
 
 /* ================================================================== */
 
@@ -78,6 +82,7 @@ ul {
 
 .text-icon {
     font-size: 15px;
+    color: #fff;
 }
 
 .computer-color {
