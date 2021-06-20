@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.p-relative{
+    position: relative;
+}
+.h-100{
+    height: 100%;
+}
+
+.mt-2{
+    margin-top: 28px;
+}
+
+.mt-5{
+    margin-top: 80px;
+}
+
+.ml-1{
+    margin-left: 10px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.color-main{
+    font-weight: 400;
+    font-size: 17px;
+    color: #9e9ea7;
+}
+
+/* ================ */
+.left-side{
+    background-color: #34317C;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+}
+.title-site{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 40px;
+}
+.title-site span{
+    font-weight: bold;
+}
+
+.nav-icons-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-icons-left li span{
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.nav-icons-left li:nth-child(7){
+    margin-top: 90px;
+}
+.effect{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.effect span{
+    display: block;
+    margin-top: 15px;
+    margin-left: 9px;
+    color: #34317C; 
+}
+
+/* ======================== */
+.right-side{
+    width: 90%;
+    margin-left: auto;
+}
+
+.left-main{
+    width: 50%;
+}
+
+.alert-one{
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #F7A03F;
+    color: #fff;
+}
+
+/* ================== */
+
+.main-right{
+    width: 45%;
+    background-color: red;
+}
+
+.btn-group{
+    display: flex;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.btn-group span{
+    background-color: #F05667;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+    padding: 7px;
+}
