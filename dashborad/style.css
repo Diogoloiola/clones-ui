@@ -27,8 +27,16 @@ body{
     height: 100%;
 }
 
+.mt-1{
+    margin-top: 15px;
+}
+
 .mt-2{
     margin-top: 28px;
+}
+
+.mt-3{
+    margin-top: 30px;
 }
 
 .mt-5{
@@ -56,6 +64,11 @@ body{
     font-weight: 400;
     font-size: 17px;
     color: #9e9ea7;
+}
+
+.color-black{
+    color: #000;
+    font-weight: 400;
 }
 
 /* ================ */
@@ -93,7 +106,7 @@ body{
     margin-top: 90px;
 }
 .effect{
-    width: 100px;
+    width: 110px;
     height: 50px;
     background-color: #fff;
     border-top-left-radius: 50px;
@@ -102,13 +115,13 @@ body{
     border-bottom-right-radius: 50%;
     position: absolute;
     top: 10%;
-    left: 35%;
+    left: 25%;
 }
 
 .effect span{
     display: block;
     margin-top: 15px;
-    margin-left: 9px;
+    margin-left: 22px;
     color: #34317C; 
 }
 
@@ -148,4 +161,112 @@ body{
     font-size: 10px;
     color: #fff;
     padding: 7px;
+}
+.day{
+    color: #9e9ea7;
+}
+.day h4{
+    font-weight: 400;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.day p{
+    text-align: center;
+}
+
+.active{
+    background-color: #F05667;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: -13px;
+}
+
+.active h4{
+    color: #fff;
+}
+.active span{
+    background-color: #fff;
+}
+.point{
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #F05667;
+    margin-left: 13px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.weekly span{
+    display: block;
+    border: 1px solid #F05667;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+.weekly span i{
+    margin-top: 10px;
+}
+.weekly-active span{
+    border: none;
+    background-color: #F7A03F;
+    color:#fff;
+}
+
+.weekly-active div{
+    width: 100%;
+    padding: 10px;
+    background-color: #F7A03F;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.weekly h4{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #F05667;
+}
+.files, .applications{
+    width: 48%;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.files{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.39), 0 2px 10px 0 rgba(0, 0, 0, 0.20);
+}
+
+.files div, .applications div{
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+.files div h4{
+    color: #F05667;
+    font-weight: 800;
+}
+
+.files div p, .applications div p{
+    margin-top: 7px;
+    font-size: 12px;
+}
+.applications div h4{
+    color: #fff;
+    font-weight: 800;
+}
+.applications div p{
+    color: #fff;
+}
+
+
+.applications{
+    background-color: #34317C;
 }
