@@ -1,4 +1,4 @@
-let menu = {
+export let menu = {
     container: document.querySelector('#menu'),
     btn: document.querySelector('#menu-icon'),
     open(){

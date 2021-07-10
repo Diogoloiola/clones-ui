@@ -1,4 +1,4 @@
-let clock = {
+export let clock = {
     content: document.querySelector('.hours'),
     load(){
         setInterval(this.create.bind(this), 1000)

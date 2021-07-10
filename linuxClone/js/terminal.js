@@ -1,4 +1,4 @@
-let terminal = {
+export let terminal = {
     data: document.querySelectorAll('.btn-terminal'),
     container: document.querySelector('#myterminal'),
     btnOpen: document.querySelector('#terminal'),
