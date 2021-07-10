@@ -38,7 +38,7 @@
                 </div>
             </div>
         </section>
-        <section id="myterminal" class="terminal hide">
+        <section id="myterminal" class="terminal animate">
             <section class="header-terminal">
                 <section>
                     <ul class="d-flex">
@@ -66,7 +66,7 @@
             <div>
                 <div class="d-flex">
                     <label class="user-computer" for="">user@user:~/</label>
-                    <input class="input-terminal" type="text" selected>
+                    <input class="input-terminal" type="text" autofocus>
                 </div>
             </div>
         </section>
@@ -83,7 +83,7 @@
                     <span class="icon-footer chrome-color">
                     <i class="fab fa-chrome"></i>
                 </span>
-                    <img onclick="showTerminal()" src="img/terminal-1.svg" alt="" width="30">
+                    <img id="terminal" src="img/terminal-1.svg" alt="" width="30">
                 </div>
                 <div class="config-icon-right ml-auto text-white">
                     <div class="d-flex justify-content-around">
@@ -96,17 +96,7 @@
 
         </div>
     </footer>
-    <script>
-        function showTerminal() {
-            var element = document.getElementById("myterminal");
-            element.classList.remove("hide");
-        }
-
-        function closeTerminal() {
-            var element = document.getElementById("myterminal");
-            element.classList.add("hide");
-        }
-    </script>
+    <script src="terminal.js"></script>
 </body>
 
 
