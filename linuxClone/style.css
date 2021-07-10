@@ -1,218 +1,232 @@
 /* ================ setting theme */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-image: url('img/bookwood_linuxmint.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("img/bookwood_linuxmint.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .container {
-    width: 90%;
-    margin: auto;
-    position: relative;
+  width: 90%;
+  margin: auto;
+  position: relative;
 }
 
 .mt-1 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .ml-auto {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 .w-100 {
-    width: 100%;
+  width: 100%;
 }
 
 .h-100 {
-    height: 100%;
+  height: 100%;
 }
 
 .aling-items-end {
-    align-items: flex-end;
+  align-items: flex-end;
 }
 
 .aling-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-content-around {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .bg-dark {
-    background-color: #2A2A2A;
+  background-color: #2a2a2a;
 }
 
 .p-relative {
-    position: relative;
+  position: relative;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-white {
-    color: #fff;
+  color: #fff;
 }
-
 
 /* ================================================================== */
 
 .config-icon {
-    display: block;
-    font-size: 30px;
+  display: block;
+  font-size: 30px;
 }
 
 .text-icon {
-    font-size: 15px;
-    color: #fff;
+  font-size: 15px;
+  color: #fff;
 }
 
 .computer-color {
-    color: #616A79;
+  color: #616a79;
 }
 
 .folder-color {
-    color: #7BB451;
+  color: #7bb451;
 }
 
 .chrome-color {
-    color: #EA9B4E;
+  color: #ea9b4e;
 }
 
 .disck-color {
-    color: #EDF2EB;
+  color: #edf2eb;
 }
 
 .icon-footer {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 .height-terminal {
-    height: 40px;
+  height: 40px;
 }
 
 .width-icons-terminal {
-    width: 15%;
-    margin-top: 7px;
+  width: 15%;
+  margin-top: 7px;
 }
 
 .config-icon-right {
-    width: 8%;
-    margin-top: 5px;
+  width: 8%;
+  margin-top: 5px;
 }
 
 .icons-main {
-    width: 120px;
-    text-align: center;
-    position: absolute;
+  width: 120px;
+  text-align: center;
+  position: absolute;
 }
-
 
 /* ======================================= */
 
 .terminal {
-    background: #300E24;
-    width: 600px;
-    height: 400px;
-    left: 25%;
-    position: absolute;
-    border-radius: 5px;
-    opacity: 1;
-    transition: 0.5s;
-    display: none;
+  background: #300e24;
+  width: 600px;
+  height: 400px;
+  left: 25%;
+  position: absolute;
+  border-radius: 5px;
+  opacity: 1;
+  transition: 0.5s;
+  display: none;
 }
 
 .user-computer {
-    color: #86E033;
-    font-size: 17px;
+  color: #86e033;
+  font-size: 17px;
 }
 
 .input-terminal {
-    border: none;
-    outline: none;
-    background: #300E24;
-    color: #fff;
-    display: block;
-    width: 80%;
-    margin-left: 5px;
+  border: none;
+  outline: none;
+  background: #300e24;
+  color: #fff;
+  display: block;
+  width: 80%;
+  margin-left: 5px;
 }
 
 .nav-terminal {
-    display: flex;
+  display: flex;
 }
 
 .nav-terminal li {
-    display: block;
-    padding: 5px;
+  display: block;
+  padding: 5px;
 }
 
 .header-terminal {
-    background: #292727;
-    color: #fff;
+  background: #292727;
+  color: #fff;
 }
 .btn-terminal {
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    display: block;
-    border-radius: 50%;
-    margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  display: block;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .btn-yellow {
-    background-color: #86E033;
+  background-color: #86e033;
 }
 
 .btn-blue {
-    background-color: #4040ff;
+  background-color: #4040ff;
 }
 
 .btn-red {
-    background-color: #c72a2a;
+  background-color: #c72a2a;
 }
 .animate {
-    -webkit-animation: animation_terminal 0.6s;
-    animation: animation_terminal 0.6s
+  -webkit-animation: animation_terminal 0.6s;
+  animation: animation_terminal 0.6s;
 }
 @keyframes animation_terminal {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 @keyframes animation_terminal_reverse {
-    from {transform: scale(1)} 
-    to {transform: scale(0)}
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
 }
-.d-block{
-    display: block;
-    transition: 0.4s;
+.d-block {
+  display: block;
+  transition: 0.4s;
 }
-.d-none{
-    display: none;
-    -webkit-animation: animation_terminal_reverse 0.6s;
-    animation: animation_terminal_reverse 0.6s
+.d-none {
+  display: none;
+  -webkit-animation: animation_terminal_reverse 0.6s;
+  animation: animation_terminal_reverse 0.6s;
 }
-.full-terminal{
-    width: 100%;
-    height: 95vh;
-    left: 0;
-    transition: 0.5s;
+.full-terminal {
+  width: 100%;
+  height: 95vh;
+  left: 0;
+  transition: 0.5s;
+}
+
+#menu {
+  width: 400px;
+  height: 400px;
+  background-color: #2E2E2E;
+  position: absolute;
+  top: 198px;
 }
