@@ -136,7 +136,7 @@ ul {
     position: absolute;
     border-radius: 5px;
     opacity: 1;
-    transition: opacity .5s linear;
+    transition: 0.5s;
     display: none;
 }
 
@@ -196,9 +196,23 @@ ul {
     from {transform: scale(0)} 
     to {transform: scale(1)}
 }
+
+@keyframes animation_terminal_reverse {
+    from {transform: scale(1)} 
+    to {transform: scale(0)}
+}
 .d-block{
     display: block;
+    transition: 0.4s;
 }
 .d-none{
     display: none;
+    -webkit-animation: animation_terminal_reverse 0.6s;
+    animation: animation_terminal_reverse 0.6s
+}
+.full-terminal{
+    width: 100%;
+    height: 95vh;
+    left: 0;
+    transition: 0.5s;
 }

@@ -3,13 +3,13 @@ let terminal = {
     container: document.querySelector('#myterminal'),
     btnOpen: document.querySelector('#terminal'),
     minimize() {
-        console.log('ola mundo 1')
+        this.container.classList.remove('d-block')
     },
     close() {
         this.container.classList.remove('d-block')
     },
     maximize() {
-        console.log('ola mundo 3')
+       this.container.classList.toggle('full-terminal')
     },
     open(){
         this.container.classList.add('d-block')
