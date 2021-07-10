@@ -266,3 +266,30 @@ ul {
     margin-left: 15px;
     margin-top: 5%;
 }
+.form-control{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: #404040;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+}
+.form-control:focus #form-menu{
+    border: 1px solid #7BB451;
+}
+.right-side{
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.search-icon{
+    background-color: #404040;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+.search-icon i{
+    margin-top: 7px;
+}
