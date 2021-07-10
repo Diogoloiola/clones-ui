@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* =========Configuratons for theme============ */
+
+.container {
+    width: 78%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+
+.nav-link li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+}
+
+.nav-link li a:nth-child(1) {
+    padding-left: 0;
+}
+
+.nav-link li a:hover {
+    color: hsl(257, 27%, 26%);
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt {
+    margin-top: 60px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: flex-start
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn-rounded,
+.btn {
+    display: block;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+}
+
+.btn-gray {
+    background-color: hsl(180, 66%, 49%);
+}
+
+.color-gray {
+    color: hsl(180, 66%, 49%);
+}
+
+.color-2 {
+    color: hsl(0, 0%, 51%);
+}
+
+.btn-rounded:hover {
+    cursor: pointer;
+}
+
+.bg-gray {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.form-control {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-especial {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.size-form {
+    width: 80%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.second-type-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.card-two {
+    height: 200px;
+    width: 315px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(257, 27%, 26%);
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 10px;
+}
+
+.card-img img {
+    width: 65%;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.card-two:nth-child(2) {
+    margin-top: 50px;
+}
+
+.card-two:nth-child(3) {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.card-two-body {
+    top: -20px;
+    position: relative;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.bg-violet {
+    background-color: hsl(260, 8%, 14%);
+}
+
+
+/* ===================== */
+
+
+/* ========= Configurations for site ============ */
+
+#title-site {
+    font-size: 25px;
+    color: hsl(260, 8%, 14%);
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+#title-body {
+    font-size: 40px;
+    color: hsl(260, 8%, 14%);
+    font-weight: 600;
+}
+
+.side-left {
+    width: 40%;
+}
+
+.side-right {
+    width: 45%;
+}
+
+.form {
+    background-image: url('./images/bg-boost-desktop.svg');
+    background-color: hsl(257, 27%, 26%);
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    top: -50px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.39), 0 2px 10px 0 rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    position: relative;
+    top: -30px;
+}
+
+.hamburger {
+    font-size: 30px;
+    display: none;
+}
+
+.title-section {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section-four {
+    width: 40%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.section-four p {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.section-five {
+    width: 100%;
+    height: 170px;
+    background-image: url('./images/bg-boost-desktop.svg');
+    background-color: hsl(257, 27%, 26%);
+}
+
+.section-five .container div {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-five .container div h1 {
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+.footer {
+    justify-content: space-around;
+}
+
+.footer div {
+    margin-top: 70px;
+    color: #fff;
+}
+
+.title-footer {
+    font-size: 18px;
+}
+
+.bg-violet .container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.icons-footer {
+    width: 14%;
+}
+
+footer {
+    height: 240px;
+}
+
+
+/* ===================== */
+
+@media only screen and (max-width: 768px) {
+    .normal-link {
+        display: none;
+    }
+    .size-form {
+        width: 100%;
+    }
+    .btn-especial {
+        margin-top: 10px;
+    }
+    .side-left {
+        width: 100%;
+        order: 2;
+    }
+    .side-right {
+        width: 100%;
+    }
+    .nav {
+        display: none;
+    }
+    .container {
+        width: 85%;
+    }
+    .hamburger {
+        display: block;
+    }
+    .config-nav {
+        justify-content: space-between;
+    }
+    .card-two {
+        text-align: center;
+    }
+    .card-two:nth-child(2),
+    .card-two:nth-child(3) {
+        margin-top: 45px;
+    }
+    .card-two:nth-child(3) {
+        margin-bottom: 60px;
+    }
+    .card-img {
+        left: 40%;
+    }
+    .section-four {
+        width: 100%;
+    }
+    .card-two {
+        width: 100%;
+    }
+    .section-five .container div {
+        width: 80%;
+    }
+    .links {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .icons-footer {
+        width: 80%;
+    }
+    footer {
+        height: auto;
+    }
+    .footer div {
+        margin-top: 30px;
+    }
+    .card-img img {
+        margin-left: 0;
+    }
+}
