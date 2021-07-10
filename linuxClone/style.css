@@ -44,6 +44,10 @@ ul {
   height: 100%;
 }
 
+.h-90{
+    height: 90%;
+}
+
 .aling-items-end {
   align-items: flex-end;
 }
@@ -229,4 +233,36 @@ ul {
   background-color: #2E2E2E;
   position: absolute;
   top: 198px;
+}
+.config-icon-menu{
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    cursor: pointer;
+}
+.folder-menu{
+   font-size: 25px;
+   margin-left: -5px;
+}
+
+.icon-power{
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    border-radius: 5px;
+}
+.icon-menu-pattern{
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000;
+}
+.left-side{
+    height: 90%;
+    background-color: #404040;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 5%;
 }
